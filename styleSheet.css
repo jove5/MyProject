@@ -1,0 +1,50 @@
+#header{
+	width:100%;
+	height: 150px;
+	border:2px solid black;
+	background: gray;
+	background: linear-gradient (to left, white, black);
+}
+.linkBar{
+	position:relative;
+	top:104px;
+
+	/*border:1px solid red;*/
+	height: 30px;
+	background-color:black;
+	/*text-align: center;*/
+
+}
+#homeIcon{
+	margin-left:-42px;
+	margin-top:0px;
+	/*border:1px solid red;*/
+}
+.linkBar a{
+	margin-left:5px;
+	padding: 1px 10px 1px 10px;
+	text-decoration: none;
+	background-color:black;
+	color:white;
+	border:1px solid gray;
+}
+.linkBar a:hover{
+	background-color:white;
+	color:black;
+}
+.linkBar li{
+	list-style-type: none;
+	float:left;
+	/*text-align:center;*/
+	margin:7px 5px 0 0;
+}
+#body{
+	width:100%;
+	height:600px;
+	background-color: gray;
+}
+#footer{
+	width:L100%;
+	height:150px;
+	border: 2px solid black;
+}
